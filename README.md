@@ -18,6 +18,16 @@
 > Verify email : ON
 > Duplicate emails : ON
 
+### 3-1. SMTP 설정
+* Client 선택 > Realm settins > Email 탬 선택
+> From : admin@test.com (발송자 이메일)
+> From display name : Admin 
+> Host : smtp.gmail.com
+> Port : 465
+> Encryption : Enable SSL ON 
+> Authentication : gmail ID/PW(앱 비밀번호 입력)
+* 입력 후 'Test connection'을 눌러 메일 발송이 성공하면 저장한다.
+* SMTP 가 설정이 되어야 회원가입시 이메일 인증이 가능
 ---
 
 ### 4. OTP 적용하기
